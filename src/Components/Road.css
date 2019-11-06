@@ -269,27 +269,6 @@
   top: 12px;
 }
 
-.copleft {
-  position: relative;
-  height: 10px;
-  width: 8px;
-  border-top-right-radius: 5px;
-  border-top-left-radius: 5px;
-  background-color: blue;
-  left: 35px;
-  top: px;
-}
-
-.copright {
-  position: relative;
-  height: 10px;
-  width: 8px;
-  border-top-right-radius: 5px;
-  border-top-left-radius: 5px;
-  background-color: red;
-  left: 30px;
-  top: -8px;
-}
 
 .smallfwheel {
   position: relative;
@@ -312,13 +291,11 @@
 }
 
 .smallcar {
-  position: absolute;
-  bottom: 255px;
+  position: relative;
 }
 
 .smallcar2 {
-  position: absolute;
-  bottom: 280px;
+  position: relative;
 }
 
 .car-left-light {

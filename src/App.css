@@ -1,14 +1,9 @@
-::-webkit-scrollbar {
-  display:none;
-}
-
 .App {
   text-align: center;
-  height: 50000px;
+  background-color: rgb(24,9,31);
 }
 
 .scroll-container {
-  background-color: rgb(24, 9, 31);
   background-image: url('./background.png');
   background-repeat: repeat;
   background-size: 1000%;

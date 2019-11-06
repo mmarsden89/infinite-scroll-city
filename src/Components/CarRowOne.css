@@ -5,8 +5,18 @@
   flex-direction: row;
   width: 200vw;
   justify-content: space-around;
+  animation: carrowone 20s infinite;
+  animation-timing-function: linear;
 }
 
+@keyframes carrowone {
+  0% {
+    left: -1700px;
+  }
+  100% {
+    left: 120px;
+  }
+}
 
 .car-row-two {
   bottom: 0;
@@ -15,21 +25,107 @@
   flex-direction: row;
   width: 200vw;
   justify-content: space-around;
+  justify-content: space-around;
+  animation: carrowtwo 20s infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes carrowtwo {
+  0% {
+    left: 120px;
+  }
+  100% {
+    left: -1700px;
+  }
 }
 
 
 .car-row-three {
-  /* bottom: 500px;
+  align-items: flex-end;
+  top: 320px;
+  width: 200vw;
   position: absolute;
   display: flex;
   flex-direction: row;
-  justify-content: space-around; */
+  justify-content: space-around;
+  animation: carrowthree 25s infinite;
+  animation-timing-function: linear;
+}
+
+.smallcar:nth-child(3) {
+  left: -155px;
+}
+
+@keyframes carrowthree {
+  0% {
+    left: 450px;
+  }
+  100% {
+    left: -1600px;
+  }
 }
 
 .car-row-four {
-  /* bottom: 390px;
+  align-items: flex-end;
+  bottom: 275px;
+  width: 200vw;
   position: absolute;
   display: flex;
   flex-direction: row;
-  justify-content: space-around; */
+  justify-content: space-around;
+  animation: carrowfour 25s infinite;
+  animation-timing-function: linear;
+}
+
+.copleft {
+  position: relative;
+  height: 10px;
+  width: 8px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  animation: copleft .5s infinite;
+  left: 35px;
+  top: px;
+}
+
+.copright {
+  position: relative;
+  height: 10px;
+  width: 8px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  animation: copright .5s infinite;
+  left: 30px;
+  top: -8px;
+}
+
+@keyframes copleft {
+  0% {
+    background-color: red;
+    box-shadow: 0px 0px 5px 5px rgba(255, 0, 0, .5);
+  }
+  100% {
+    background-color: blue;
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 255, .5);
+  }
+}
+
+@keyframes copright {
+  0% {
+    background-color: blue;
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 255, .5);
+  }
+  100% {
+    background-color: red;
+    box-shadow: 0px 0px 5px 5px rgba(255, 0, 0, .5);
+  }
+}
+
+@keyframes carrowfour {
+  0% {
+    left: -1650px;
+  }
+  100% {
+    left: 450px;
+  }
 }

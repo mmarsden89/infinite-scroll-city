@@ -3,31 +3,11 @@ import Car3 from './Car3'
 import Car4 from './Car4'
 
 
-class CarRowThree extends Component {
-  constructor() {
-    super()
-    this.state = {
-      x: 150,
-      lastPos: 0
-    }
-  }
-
-  componentDidMount =() => {
-    window.addEventListener('scroll', this.handleScroll, { passive: true })
-  }
-
-  handleScroll = () => {
-    if (this.state.x > -1550) {
-      this.setState({x: this.state.x - 5})
-    } else {
-      this.setState({x: 270})
-    }
-    this.setState({lastPos: window.scrollY})
-  }
+class CarRowTwo extends Component {
 
   render() {
     return (
-        <div style={{left: this.state.x}} className="car-row-two" onScroll={this.handleScroll}>
+        <div className="car-row-two">
           <Car3/>
           <Car4/>
           <Car3/>
@@ -36,4 +16,4 @@ class CarRowThree extends Component {
   }
 }
 
-export default CarRowThree
+export default CarRowTwo
