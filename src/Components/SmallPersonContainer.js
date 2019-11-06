@@ -18,9 +18,6 @@ class SmallPersonContainer extends Component {
   handleScroll = () => {
     if (this.state.x < window.innerWidth + 200) {
       this.setState({x: this.state.x + 2.75})
-      if (this.state.x < -350 && this.state.lastPos > window.scrollY) {
-        this.setState({x: window.innerWidth})
-      }
     } else {
       this.setState({x: -300})
     }

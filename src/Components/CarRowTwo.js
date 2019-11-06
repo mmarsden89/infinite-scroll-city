@@ -19,9 +19,6 @@ class CarRowThree extends Component {
   handleScroll = () => {
     if (this.state.x > -1550) {
       this.setState({x: this.state.x - 5})
-      if (this.state.x < - window.innerWidth - 1300 && this.state.lastPos > window.scrollY) {
-        this.setState({x: window.innerWidth + 100})
-      }
     } else {
       this.setState({x: 270})
     }

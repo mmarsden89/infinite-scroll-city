@@ -19,9 +19,6 @@ class TrainTunnel extends Component {
   handleScroll = (event) => {
     if (this.state.x < window.innerWidth + 1400) {
       this.setState({x: this.state.x + 2.5})
-      if (this.state.x < -2400) {
-        this.setState({x: window.innerWidth + 100})
-      }
     } else {
       this.setState({x: -2200})
     }

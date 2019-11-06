@@ -18,9 +18,6 @@ class Fence extends Component {
   handleScroll = (event) => {
     if (this.state.x < window.innerWidth + 500) {
       this.setState({x: this.state.x + 3})
-      if (this.state.x < -350 && this.state.lastPos > window.scrollY) {
-        this.setState({x: window.innerWidth})
-      }
     } else {
       this.setState({x: -500})
     }

@@ -17,9 +17,6 @@ class HotDog extends Component {
   handleScroll = (event) => {
     if (this.state.x < window.innerWidth) {
       this.setState({x: this.state.x + 2.5})
-      if (this.state.x < -350 && this.state.lastPos > window.scrollY) {
-        this.setState({x: window.innerWidth})
-      }
     } else {
       this.setState({x: -500})
     }

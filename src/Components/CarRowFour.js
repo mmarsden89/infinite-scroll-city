@@ -20,9 +20,6 @@ class CarRowFour extends Component {
   handleScroll = (event) => {
     if (this.state.x < window.innerWidth - 1300) {
       this.setState({x: this.state.x + 5})
-      if (this.state.x < - window.innerWidth - 1300 && this.state.lastPos > window.scrollY) {
-        this.setState({x: window.innerWidth + 395})
-      }
     } else {
       this.setState({x: -1750})
     }
