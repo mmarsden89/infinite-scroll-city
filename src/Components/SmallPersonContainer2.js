@@ -11,7 +11,7 @@ class PersonContainer2 extends Component {
     }
   }
 
-  componentDidMount =() => {
+  componentDidMount = () => {
     window.addEventListener('scroll', this.handleScroll, { passive: true })
   }
 

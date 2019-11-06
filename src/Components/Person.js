@@ -5,7 +5,6 @@ class Person extends Component {
   constructor(props) {
     super(props)
     this.state = {
-      x: this.props.x,
       y: this.props.y,
       lastY: 0
     }
@@ -30,7 +29,7 @@ class Person extends Component {
 
   render() {
     return (
-        <div style={{left: this.state.x, transform: `rotate(${this.state.y}deg)`}}
+        <div style={{left: this.props.x, transform: `rotate(${this.state.y}deg)`}}
           className="person" onScroll={this.handleScroll}>
           <div className="personleft"
             style={{transform: `rotate(${(this.state.y - 10) * 5}deg)`,
