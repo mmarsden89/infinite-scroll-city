@@ -1,0 +1,313 @@
+.hotdog-container {
+  position: absolute;
+  bottom: 220px;
+}
+
+.hotdog-body {
+  width: 50px;
+  height: 30px;
+  background-image: linear-gradient(270deg, #d2ccc4 -20%, rgb(77, 77, 77) 40%, rgb(150, 150, 150) 140%, #d2ccc4 210%);
+}
+
+.hotdog-wheel {
+  bottom: 12px;
+  left: 35px;
+  position: relative;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: rgb(29, 29, 29);
+}
+
+.hotdog-stand {
+  position: relative;
+  top: 37px;
+  background-color: rgb(29,29,29);
+  width: 5px;
+  height: 5px;
+}
+
+.inner-wheel {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: rgb(78, 78, 78);
+}
+
+
+.hotdog-sign {
+  border-radius: 3px;
+  position: relative;
+  top: 34px;
+  left: 3px;
+  width: 40px;
+  height: 20px;
+  background-color: rgb(190, 100, 76);
+  border: 2px solid rgb(150, 60, 36);
+}
+
+
+.hotdog-dog {
+  top: -5px;
+  left: 6px;
+  position: relative;
+  width: 30px;
+  height: 10px;
+  background-color: brown;
+  border-radius: 15px;
+  border-top-right-radius: 25% 25%;
+  border-top-left-radius: 25% 25%;
+  border-bottom-right-radius: 50% 50%;
+  border-bottom-left-radius: 50% 50%;
+}
+
+.hotdog-roll {
+  top: 3px;
+  left: 4px;
+  position: relative;
+  width: 33px;
+  height: 10px;
+  background-color: rgb(171, 125, 91);
+  border-radius: 15px;
+  border-top-right-radius: 25% 25%;
+  border-top-left-radius: 25% 25%;
+  border-bottom-right-radius: 50% 50%;
+  border-bottom-left-radius: 50% 50%;
+}
+
+.hotdog-roll-top {
+  top: -13px;
+  left: 4px;
+  position: relative;
+  width: 33px;
+  height: 10px;
+  background-color: rgb(171, 125, 91);
+  border-radius: 15px;
+  border-top-right-radius: 25% 25%;
+  border-top-left-radius: 25% 25%;
+  border-bottom-right-radius: 50% 50%;
+  border-bottom-left-radius: 50% 50%;
+}
+
+.hotdog-stand-top-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.hotdog-stand-top {
+  position: relative;
+  width: 20px;
+  height: 2px;
+  background-color: gray;
+}
+
+
+.hotdog-umbrella {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  height: 30px;
+  width: 90px;
+  top: -18px;
+  left: -16px;
+  transform: scale(1.1, 0.6) rotate(185deg);
+}
+
+
+.curve:first-child {
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 150%;
+  border-top-left-radius: 0;
+}
+
+.curve:last-child {
+  border-top-left-radius: 5px;
+  border-bottom-right-radius: 150%;
+  border-top-right-radius: 0;
+}
+
+.umbrella1 {
+  position: relative;
+  width: 10px;
+  height: 20px;
+  background-color: darkred;
+  border-bottom-right-radius: 1.5px;
+}
+
+.umbrella2 {
+  position: relative;
+  width: 10px;
+  height: 22px;
+  background-color: yellow;
+  border-top: 1px solid yellow;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 1.5px;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+}
+
+.umbrella3 {
+  position: relative;
+  width: 10px;
+  height: 22px;
+  background-color: darkred;
+  border-top: 2px solid darkred;
+  border-bottom-left-radius: 1.5px;
+  border-bottom-right-radius: 1.5px;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+}
+
+.umbrella4 {
+  position: relative;
+  width: 10px;
+  height: 22px;
+  background-color: yellow;
+  border-top: 1px solid yellow;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  border-bottom-left-radius: 1.5px;
+  border-bottom-right-radius: 5px;
+}
+
+.umbrella5 {
+  position: relative;
+  width: 10px;
+  height: 20px;
+  background-color: darkred;
+  border-bottom-left-radius: 1.5px;
+}
+
+.hotdog-pole {
+  top: 0;
+  right: 0;
+  position: absolute;
+  height: 45px;
+  width: 3px;
+  background-color: gray;
+  transform: rotate(5deg);
+}
+
+
+.hotdog-person {
+  position: absolute;
+  bottom: 245px;
+}
+
+
+.hotdog-head {
+  top: -35px;
+  position: relative;
+  height: 12px;
+  width: 12px;
+  background-color: rgb(166, 147, 130);
+  border-radius: 50%;
+}
+
+
+.hotdog-personbottom {
+  top: 20px;
+  border-radius: 25%;
+  position: relative;
+  height: 20px;
+  width: 12px;
+  background-color: brown;
+}
+
+.hotdog-person-left {
+  bottom: 2px;
+  left: 12px;
+  height: 12px;
+  position: relative;
+  width: 5px;
+  border-radius: 35%;
+  background-color: white;
+}
+
+.hotdog-person-right {
+  bottom: 15px;
+  left: -7px;
+  height: 12px;
+  position: relative;
+  width: 5px;
+  border-radius: 35%;
+  background-color: white;
+}
+
+
+.hotdog-hand1 {
+  position: relative;
+  left: 1px;
+  top: 13px;
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+  background-color: rgb(166, 147, 130);
+}
+
+.hotdog-hand2 {
+  position: relative;
+  left: 1px;
+  top: -2px;
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+  background-color: rgb(166, 147, 130);
+}
+
+.hotdoghand1 {
+  position: relative;
+  top: 9px;
+}
+
+.hotdoghand2 {
+  position: relative;
+  top: -8px;
+}
+
+
+.hotdoghand-dog {
+  top: -2px;
+  left: 5px;
+  position: relative;
+  width: 5px;
+  height: 2px;
+  background-color: brown;
+  border-radius: 15px;
+  border-top-right-radius: 25% 25%;
+  border-top-left-radius: 25% 25%;
+  border-bottom-right-radius: 50% 50%;
+  border-bottom-left-radius: 50% 50%;
+}
+
+.hotdoghand-roll {
+  top: px;
+  left: 4px;
+  position: relative;
+  width: 6px;
+  height: 3px;
+  background-color: rgb(171, 125, 91);
+  border-radius: 15px;
+  border-top-right-radius: 25% 25%;
+  border-top-left-radius: 25% 25%;
+  border-bottom-right-radius: 50% 50%;
+  border-bottom-left-radius: 50% 50%;
+}
+
+.hotdoghand-roll-top {
+  top: -3px;
+  left: 4px;
+  position: relative;
+  width: 6px;
+  height: 3px;
+  background-color: rgb(171, 125, 91);
+  border-radius: 15px;
+  border-top-right-radius: 25% 25%;
+  border-top-left-radius: 25% 25%;
+  border-bottom-right-radius: 50% 50%;
+  border-bottom-left-radius: 50% 50%;
+}

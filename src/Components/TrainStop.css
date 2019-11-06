@@ -1,0 +1,248 @@
+.stop-container {
+  height: 50px;
+  width: 500px;
+  background-color: rgba(35, 100, 200, .7);
+  border: 20px solid rgb(125, 125, 125);
+  border-radius: 15px;
+}
+
+.train-stop {
+  position: absolute;
+  z-index: 2;
+  bottom: 210px;
+}
+
+.train-stop-building {
+  margin-top: -10px;
+  bottom: 0px;
+  position: relative;
+  width: 540px;
+  height: 180px;
+  background-color: rgb(125, 125, 125);
+}
+
+.train-stop-entrance {
+  padding-bottom: 5px;
+  overflow: hidden;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  top: 80px;
+  position: relative;
+  margin: 0 auto;
+  width: 80%;
+  background-color: rgb(100, 100, 100);
+  height: 100px;
+  border: 2px solid rgb(80, 80, 80);
+  border-bottom: 0;
+}
+
+.train-stop-entrance-floor {
+  position: relative;
+  height: 25px;
+  width: 100%;
+  background:
+  linear-gradient(180deg, transparent 75%, rgba(255,255,255,.3) 75%) 1px 1px,
+  linear-gradient(90deg, transparent 75%, rgba(255,255,255,.3) 75%) 1px 1px, gray;
+  background-size: 5px 5px;
+  top: 75px;
+  border-bottom: 1px solid rgb(100,100,100);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+
+.train-name {
+  top: -180px;
+  width: 80%;
+  height: 25px;
+  margin: 0 auto;
+  position: relative;
+  background-color: rgb(33, 70, 31);
+  border: 2px solid rgb(23, 60, 21);
+  border-radius: 3px;
+  box-shadow: 0px 1px 0px 3px rgba(52, 52, 52, .7);
+}
+
+.train-name > h4 {
+  position: relative;
+  bottom: 20px;
+  padding: 2px 0;
+  color: rgb(227, 221, 221);
+}
+
+.train-stop-stair-left {
+  position: absolute;
+  bottom: 20px;
+  border-right: 85px solid transparent;
+  border-bottom: 65px solid rgb(187, 181, 181);
+  clip-path: polygon(0% 0%, 0% 100%, 100% 100%, 90% 100%, 90% 90%, 80% 90%,
+    80% 80%, 70% 80%, 70% 70%, 60% 70%, 60% 60%, 50% 60%, 50% 50%, 40% 50%,
+    40% 40%, 30% 40%, 30% 30%, 20% 30%, 10% 20%, 10% 10%, 0 10%);
+}
+
+.train-stop-stair-right {
+  position: absolute;
+  bottom: 20px;
+  border-right: 85px solid transparent;
+  border-bottom: 65px solid rgb(187, 181, 181);
+  clip-path: polygon(0% 0%, 0% 100%, 100% 100%, 90% 100%, 90% 90%, 80% 90%,
+    80% 80%, 70% 80%, 70% 70%, 60% 70%, 60% 60%, 50% 60%, 50% 50%, 40% 50%,
+    40% 40%, 30% 40%, 30% 30%, 20% 30%, 10% 20%, 10% 10%, 0 10%);
+  transform: scaleX(-1);
+  right: 0;
+}
+
+.train-stop-stair-right-top {
+  bottom: 50px;
+  right: 0;
+  position: absolute;
+  border-left: 85px solid transparent;
+  border-top: 65px solid rgb(227, 221, 221);
+}
+
+.train-stop-stair-left-top {
+  bottom: 50px;
+  leftt: 0;
+  position: absolute;
+  border-right: 85px solid transparent;
+  border-top: 65px solid rgb(227, 221, 221);
+}
+
+.fair-machine {
+  top: -50px;
+  position: relative;
+  margin: 0 2px;
+  height: 50px;
+  width: 35px;
+  background-image: linear-gradient(270deg, #d2ccc4 -20%, rgb(77, 77, 77) 40%);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border: 2px solid rgb(57, 57, 57);
+}
+
+.fair-machine > p {
+  color: rgb(227, 221, 221);
+  border-radius: 15px;
+  font-size: 6px;
+  width: 25px;
+  margin: 2px auto;
+  background-color: rgb(33, 70, 31);
+  border: 2px solid rgb(23, 60, 21);
+}
+
+.fair-screen {
+  margin: 5px auto;
+  width: 25px;
+  height: 15px;
+  background-color: rgba(80, 95, 128, 0.7);
+  border: 2px solid rgb(44, 51, 66);
+  box-shadow: 0px -2px 4px 1px rgba(79, 98, 140, 0.9);
+}
+
+.fair-return {
+  border-radius: 5px;
+  margin: 3px auto;
+  width: 25px;
+  height: 3px;
+  background-color: rgb(67, 67, 67);
+  border: 2px solid rgb(47, 47, 47);
+}
+
+.train-stop-railing-right {
+  top: -45px;
+  left: 5px;
+  transform: rotate(40deg);
+  position: relative;
+  width: 80px;
+  height: 1px;
+  border: 1px solid rgb(22, 22, 22);
+  background-color: rgb(22, 22, 22);
+}
+
+.train-stop-railing-left {
+  top: 15px;
+  left: 345px;
+  transform: rotate(-40deg);
+  position: relative;
+  width: 80px;
+  height: 1px;
+  border: 1px solid rgb(22, 22, 22);
+  background-color: rgb(22, 22, 22);
+}
+
+.railing1 {
+  bottom: -32px;
+  left: 62px;
+  position: relative;
+  border: 1px solid rgb(22, 22, 22);
+  background-color: rgb(22, 22, 22);
+  width: 1px;
+  height: 13px;
+}
+
+.railing2 {
+  top: -10px;
+  left: 27px;
+  position: relative;
+  border: 1px solid rgb(22, 22, 22);
+  background-color: rgb(22, 22, 22);
+  width: 1px;
+  height: 13px;
+}
+
+.railing3 {
+  top: -25px;
+  right: -400px;
+  position: relative;
+  border: 1px solid rgb(22, 22, 22);
+  background-color: rgb(22, 22, 22);
+  width: 1px;
+  height: 13px;
+}
+
+.railing4 {
+  top: -15px;
+  right: -367px;
+  position: relative;
+  border: 1px solid rgb(22, 22, 22);
+  background-color: rgb(22, 22, 22);
+  width: 1px;
+  height: 13px;
+}
+
+.train-stop-lights {
+  position: absolute;
+  bottom: 140px;
+  left: 200px;
+  width: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.train-stop-light {
+  background-color: rgba(215, 195, 122, .7);
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  box-shadow: 0 10px 15px 7px rgba(215, 195, 122, .5);
+}
+
+.train-stop-light-covering {
+  margin-left: -1px;
+  height: 7px;
+  width: 17px;
+  border-radius: 50% 50% 0 0;
+  background-color: rgb(32, 32, 32);
+}
+
+.train-stop-light-arm {
+  position: relative;
+  top: -17px;
+  margin: 0 auto;
+  border-radius: 50%;
+  height: 12px;
+  width: 3px;
+  background-color: rgb(32, 32, 32);
+}

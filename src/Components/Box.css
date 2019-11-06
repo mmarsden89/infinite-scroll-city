@@ -1,0 +1,362 @@
+.box-container {
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  top: 110px;
+  position: absolute;
+  height: 200px;
+  width: 350px;
+  background-color: rgb(60, 52, 44);
+}
+
+.box-top {
+  top: -5px;
+  position: absolute;
+  left: -5px;
+  background-color: rgb(50, 42, 34);
+  width: 360px;
+  height: 25px;
+}
+
+.boxs2-container {
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  top: 110px;
+  position: absolute;
+  height: 200px;
+  width: 300px;
+  background-color: rgb(32, 43, 36);
+}
+
+.boxs2-top {
+  top: -8px;
+  position: absolute;
+  left: -4px;
+  background-color: rgb(22, 33, 26);
+  width: 308px;
+  height: 25px;
+}
+
+.boxs3-container {
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  top: 85px;
+  position: absolute;
+  height: 225px;
+  width: 175px;
+  background-color: rgb(42, 22, 22);
+}
+
+.boxs3-top {
+  top: -7px;
+  position: absolute;
+  left: -4px;
+  background-color: rgb(32, 12, 14);
+  width: 183px;
+  height: 25px;
+}
+
+.boxs4-container {
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  top: 135px;
+  position: absolute;
+  height: 175px;
+  width: 350px;
+  background-color: rgb(54, 57, 47);
+}
+
+.boxs4-top {
+  top: -5px;
+  position: absolute;
+  left: -4px;
+  background-color: rgb(44, 47, 37);
+  width: 358px;
+  height: 25px;
+}
+
+.boxs5-container {
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  top: 85px;
+  position: absolute;
+  height: 225px;
+  width: 225px;
+  background-color: rgb(35, 1, 38);
+}
+
+.boxs5-top {
+  top: -10px;
+  position: absolute;
+  left: -4px;
+  background-color: rgb(25, 0, 21);
+  width: 233px;
+  height: 25px;
+}
+
+
+.box2-container {
+  z-index: 2;
+  border-top-right-radius: 7px;
+  border-top-left-radius: 7px;
+  top: 316px;
+  position: absolute;
+  height: 280px;
+  width: 390px;
+  background-color: rgb(52, 53, 54);
+}
+
+.box2-top {
+  top: -10px;
+  position: absolute;
+  left: -5px;
+  background-color: rgb(42, 43, 44);
+  width: 400px;
+  height: 25px;
+}
+
+.box3-container {
+  border-top-right-radius: 7px;
+  border-top-left-radius: 7px;
+  top: 195px;
+  position: absolute;
+  height: 400px;
+  width: 350px;
+  background-color: #580303;
+  background-size: 9px 9px;
+  background-position: 1px 4px, 2px 0px, 16px 9px, 17px 4px;
+  z-index: 2;
+}
+
+.brick-covering-top {
+  margin-left: -5px;
+  width: 45px;
+  height: 8px;
+  background-color: #460202;
+  border: 1px solid #4b0303;
+}
+
+.brick-covering-bottom {
+  margin-top: 30px;
+  margin-left: -5px;
+  width: 45px;
+  height: 12px;
+  background-color: #460202;
+  border: 1px solid #4b0303;
+}
+
+.box3-top {
+  top: -15px;
+  position: absolute;
+  left: -5px;
+  background-color: #410101;
+  width: 360px;
+  height: 25px;
+}
+
+.box4-container {
+  border-top-right-radius: 7px;
+  border-top-left-radius: 7px;
+  top: 45px;
+  position: absolute;
+  height: 550px;
+  width: 280px;
+  background-color: rgb(25, 25, 42);
+  z-index: 2;
+}
+
+.box4-top {
+  top: -25px;
+  position: absolute;
+  left: -5px;
+  background-color: rgb(15, 15, 32);
+  width: 290px;
+  height: 35px;
+}
+
+
+.window-container {
+  padding-top: 25px;
+  width: 100%;
+  justify-items: center;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+}
+
+.window {
+  border-radius: 5px;
+  height: 50px;
+  width: 35px;
+  background-color: rgba(35, 100, 200);
+}
+
+.window-colored {
+  border-radius: 5px;
+  height: 50px;
+  width: 35px;
+  background-color: rgba(35, 100, 200);
+}
+
+.window2 {
+  border-radius: 5px;
+  height: 45px;
+  width: 30px;
+  background-color: rgba(35, 100, 200, .7);
+}
+
+.tree {
+  position: relative;
+  bottom: 35px;
+  z-index: 4;
+}
+
+.treetop {
+  position: relative;
+  height: 50px;
+  width: 50px;
+  background-color: rgb(11, 59, 6);
+  border-radius: 50%;
+  left: 22.5px;
+  top: 15px;
+}
+
+.treeleft {
+  position: relative;
+  height: 50px;
+  width: 50px;
+  background-color: rgb(11, 59, 6);
+  border-radius: 50%;
+  border-bottom-right-radius: 5px;
+}
+
+.treeright {
+  position: relative;
+  height: 50px;
+  width: 50px;
+  background-color: rgb(11, 59, 6);
+  border-radius: 50%;
+  top: -50px;
+  left: 45px;
+  border-bottom-left-radius: 5px;
+}
+
+.stalk {
+  top: -50px;
+  left: 35px;
+  position: relative;
+  height:20px;
+  width:20px;
+  background-color: rgb(48, 36, 4);
+}
+
+
+.tinytree {
+  position: absolute;
+  bottom: 250px;
+}
+
+.tinytreetop {
+  position: relative;
+  height: 40px;
+  width: 40px;
+  background-color: rgb(11, 59, 6);
+  border-radius: 50%;
+  left: 18px;
+  top: 15px;
+}
+
+.tinytreeleft {
+  position: relative;
+  height: 40px;
+  width: 40px;
+  background-color: rgb(11, 59, 6);
+  border-radius: 50%;
+  border-bottom-right-radius: 5px;
+}
+
+.tinytreeright {
+  position: relative;
+  height: 40px;
+  width: 40px;
+  background-color: rgb(11, 59, 6);
+  border-radius: 50%;
+  top: -40px;
+  left: 35px;
+  border-bottom-left-radius: 5px;
+}
+
+.tinystalk {
+  top: 90px;
+  left: 28px;
+  position: relative;
+  height:20px;
+  width:20px;
+  background-color: rgb(48, 36, 4);
+}
+
+.tiniertree {
+  position: absolute;
+  bottom: 354px;
+}
+
+.tiniertreetop {
+  position: relative;
+  height: 35px;
+  width: 35px;
+  background-color: rgb(11, 59, 6);
+  border-radius: 50%;
+  left: 15px;
+  top: 15px;
+}
+
+.tiniertreeleft {
+  position: relative;
+  height: 35px;
+  width: 35px;
+  background-color: rgb(11, 59, 6);
+  border-radius: 50%;
+  border-bottom-right-radius: 5px;
+}
+
+.tiniertreeright {
+  position: relative;
+  height: 35px;
+  width: 35px;
+  background-color: rgb(11, 59, 6);
+  border-radius: 50%;
+  top: -35px;
+  left: 30px;
+  border-bottom-left-radius: 5px;
+}
+
+.tinierstalk {
+  top: 82px;
+  left: 24px;
+  position: relative;
+  height: 20px;
+  width: 20px;
+  background-color: rgb(48, 36, 4);
+}
+
+.fence-container {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  bottom: 100px;
+  margin-left: -255px;
+}
+
+.fencepost:nth-child(even) {
+  background-color: rgb(48, 28, 17);
+}
+
+.fencepost {
+  border-right: 0;
+  position: relative;
+  width: 8px;
+  height: 60px;
+  background-color: rgb(60, 35, 21);
+  border-radius: 45%;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}

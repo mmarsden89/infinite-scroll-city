@@ -1,0 +1,7 @@
+.tree-container {
+  position: relative;
+  width: 200vw;
+  top: 515px;
+  display: flex;
+  flex-direction: row;
+}

@@ -1,0 +1,410 @@
+.car3 {
+  z-index: 10
+}
+
+.car {
+  z-index: 9;
+}
+
+.road1 {
+  width: 100vw;
+  background-color: gray;
+  height: 90px;
+  position: absolute;
+  bottom: 0;
+}
+
+.inner-road1 {
+  width: 100vw;
+  background-color: rgb(27, 26, 27);
+  height: 70px;
+  position: absolute;
+  bottom: 0;
+}
+
+.car {
+  position: relative;
+  bottom: -25px;
+}
+
+.car3 {
+  position: relative;
+  bottom: -55px;
+}
+
+.top {
+  position: relative;
+  height: 30px;
+  width: 50px;
+  border-radius: 5px;
+  background-color: rgba(35, 100, 200, .7);
+  border: 10px solid #0b2933;
+  left: 15px;
+}
+
+.bottom {
+  position: relative;
+  height:20px;
+  width: 100px;
+  background-color: #0b2933;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  top: -25px;
+}
+
+.top2 {
+  position: relative;
+  height: 30px;
+  width: 50px;
+  border-radius: 5px;
+  background-color: rgba(35, 100, 200, .7);
+  border: 10px solid #12260d;
+  left: 15px;
+}
+
+.bottom2 {
+  position: relative;
+  height:20px;
+  width: 100px;
+  background-color: #12260d;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  top: -25px;
+}
+
+.top3 {
+  position: relative;
+  height: 30px;
+  width: 50px;
+  border-radius: 5px;
+  background-color: rgba(35, 100, 200, .7);
+  border: 10px solid rgb(84, 59, 60);
+  left: 15px;
+}
+
+.bottom3 {
+  position: relative;
+  height:20px;
+  width: 100px;
+  background-color: rgb(84, 59, 60);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  top: -25px;
+}
+
+.top4 {
+  position: relative;
+  height: 30px;
+  width: 50px;
+  border-radius: 5px;
+  background-color: rgba(35, 100, 200, .7);
+  border: 10px solid rgb(54, 25, 9);
+  left: 15px;
+}
+
+.bottom4 {
+  position: relative;
+  height: 20px;
+  width: 100px;
+  background-color: rgb(54, 25, 9);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  top: -25px;
+}
+
+.fwheel {
+  position: relative;
+  height:20px;
+  width:20px;
+  border-radius: 100%;
+  background-color: black;
+  top: -35px;
+  left: 5px;
+}
+
+.bwheel {
+  position: relative;
+  height:20px;
+  width:20px;
+  border-radius: 100%;
+  background-color: black;
+  top: -55px;
+  left: 75px;
+}
+
+.smalltop {
+  position: relative;
+  height: 20px;
+  width: 30px;
+  border-radius: 5px;
+  background-color: rgba(35, 100, 200, .7);
+  border: 9px solid rgb(140, 140, 140);
+  left: 12px;
+  bottom: 5px;
+}
+
+.smallbottom {
+  position: relative;
+  height: 20px;
+  width: 70px;
+  background-color: rgb(140, 140, 140);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  top: -25px;
+}
+
+.smalltop2 {
+  position: relative;
+  height: 20px;
+  width: 30px;
+  border-radius: 5px;
+  background-color: rgba(35, 100, 200, .7);
+  border: 9px solid rgb(78, 83, 41);
+  left: 12px;
+  bottom: 5px;
+}
+
+.smallbottom2 {
+  position: relative;
+  height: 20px;
+  width: 70px;
+  background-color: rgb(78, 83, 41);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  top: -25px;
+}
+
+.smalltop3 {
+  position: relative;
+  height: 20px;
+  width: 30px;
+  border-radius: 5px;
+  background-color: rgba(35, 100, 200, .7);
+  border: 9px solid rgb(158, 108, 56);
+  left: 12px;
+  bottom: 5px;
+}
+
+.taxi {
+  position: relative;
+  height: 10px;
+  width: 8px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  background-color: lightgray;
+  left: 30px;
+  top: -2px;
+}
+
+.smallbottom3 {
+  position: relative;
+  height: 20px;
+  width: 70px;
+  background-color: rgb(158, 108, 56);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  top: -25px;
+}
+
+.smalltop4 {
+  position: relative;
+  height: 20px;
+  width: 30px;
+  border-radius: 5px;
+  background-color: rgba(35, 100, 200, .7);
+  border: 9px solid rgb(75, 37, 105);
+  left: 12px;
+  bottom: 5px;
+}
+
+.smallbottom4 {
+  position: relative;
+  height: 20px;
+  width: 70px;
+  background-color: rgb(75, 37, 105);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  top: -25px;
+}
+
+.smalltop5 {
+  position: relative;
+  height: 20px;
+  width: 16px;
+  border-radius: 5px;
+  background-color: rgba(35, 100, 200, .7);
+  border: 9px solid rgb(126, 38, 38);
+  left: 25px;
+  bottom: 5px;
+}
+
+.smallbottom5 {
+  position: relative;
+  height: 20px;
+  width: 70px;
+  background-color: rgb(126, 38, 38);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  top: -25px;
+}
+
+.smalltop6 {
+  position: relative;
+  height: 20px;
+  width: 30px;
+  border-radius: 5px;
+  background-color: rgba(35, 100, 200, .7);
+  border: 9px solid white;
+  left: 12px;
+  bottom: 28px;
+}
+
+.smallbottom6 {
+  position: relative;
+  height: 20px;
+  width: 70px;
+  background-color: black;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  top: 12px;
+}
+
+.copleft {
+  position: relative;
+  height: 10px;
+  width: 8px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  background-color: blue;
+  left: 35px;
+  top: px;
+}
+
+.copright {
+  position: relative;
+  height: 10px;
+  width: 8px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  background-color: red;
+  left: 30px;
+  top: -8px;
+}
+
+.smallfwheel {
+  position: relative;
+  height: 15px;
+  width: 15px;
+  border-radius: 100%;
+  background-color: black;
+  top: -35px;
+  left: 5px;
+}
+
+.smallbwheel {
+  position: relative;
+  height: 15px;
+  width: 15px;
+  border-radius: 100%;
+  background-color: black;
+  top: -50px;
+  left: 50px;
+}
+
+.smallcar {
+  position: absolute;
+  bottom: 255px;
+}
+
+.smallcar2 {
+  position: absolute;
+  bottom: 280px;
+}
+
+.car-left-light {
+  position: relative;
+  left: 96px;
+  bottom: 82px;
+  width: 5px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: rgba(218, 197, 84, .5);
+  box-shadow: 7px 0px 25px 7px rgba(218, 197, 84, .7);
+}
+
+.car-right-light {
+  position: relative;
+  right: 0px;
+  bottom: 92px;
+  width: 5px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: rgba(170, 46, 46, 0.7);
+  box-shadow: -5px 0px 25px 5px rgba(170, 46, 46, 0.7);
+}
+
+.car2-left-light {
+  position: relative;
+  left: 0px;
+  bottom: 82px;
+  width: 5px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: rgba(218, 197, 84, .5);
+  box-shadow: -8px 0px 25px 7px rgba(218, 197, 84, .7);
+}
+
+.car2-right-light {
+  position: relative;
+  left: 96px;
+  bottom: 92px;
+  width: 5px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: rgba(170, 46, 46, 0.7);
+  box-shadow: 5px 0px 25px 3px rgba(170, 46, 46, 0.7);
+}
+
+.small-car-left-light {
+  position: relative;
+  left: 66px;
+  bottom: 72px;
+  width: 4px;
+  height: 7px;
+  border-radius: 100%;
+  background-color: rgba(170, 46, 46, 0.7);
+  box-shadow: 5px 0px 20px 5px rgba(170, 46, 46, 0.7);
+}
+
+.small-car-right-light {
+  position: relative;
+  right: 0px;
+  bottom: 80px;
+  width: 4px;
+  height: 7px;
+  border-radius: 100%;
+  background-color: rgba(218, 197, 84, .5);
+  box-shadow: -7px 0px 25px 5px rgba(218, 197, 84, .7);
+}
+
+.small2-car-left-light {
+  position: relative;
+  left: 66px;
+  bottom: 72px;
+  width: 4px;
+  height: 7px;
+  border-radius: 100%;
+  background-color: rgba(218, 197, 84, .5);
+  box-shadow: 7px 0px 25px 5px rgba(218, 197, 84, .7);
+}
+
+.small2-car-right-light {
+  position: relative;
+  right: 0px;
+  bottom: 80px;
+  width: 4px;
+  height: 7px;
+  border-radius: 100%;
+  background-color: rgba(170, 46, 46, 0.7);
+  box-shadow: -5px 0px 20px 5px rgba(170, 46, 46, 0.7);
+}

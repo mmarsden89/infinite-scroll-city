@@ -1,0 +1,163 @@
+.train2 {
+  bottom: 227px;
+  position: absolute;
+  width: 600px;
+  height: 15px;
+  display: flex;
+  flex-direction: row;
+  /* height: 15px;
+  border-top: 17.5px solid rgb(142, 142, 142);
+  background-color: rgba(35, 100, 200, .7);
+  border-radius: 15px; */
+}
+
+.train2-1 {
+  position: relative;
+  width: 50px;
+  height: 32.5px;
+  border-left: 0px;
+  background-color: rgba(35, 100, 200, .7);
+  border-bottom: 17.5px solid rgb(142, 142, 142);
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 45px;
+}
+
+.train2-1-other {
+  position: relative;
+  width: 85px;
+  height: 32.5px;
+  border: 17.5px solid rgb(142, 142, 142);
+  border-top: 0px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  background-color: rgba(35, 100, 200, .7);
+}
+
+.train2-2 {
+  position: relative;
+  width: 85px;
+  height: 32.5px;
+  border: 17.5px solid rgb(142, 142, 142);
+  border-top: 0px;
+  background-color: rgba(35, 100, 200, .7);
+}
+
+.train2-3 {
+  position: relative;
+  width: 85px;
+  height: 32.5px;
+  border: 17.5px solid rgb(142, 142, 142);
+  border-top: 0px;
+  background-color: rgba(35, 100, 200, .7);
+}
+
+.train2-4 {
+  position: relative;
+  width: 5px;
+  height: 15px;
+  border: 17.5px solid rgb(142, 142, 142);
+  background-color: rgb(142, 142, 142);
+}
+
+.train2-5 {
+  position: relative;
+  width: 85px;
+  height: 32.5px;
+  border: 17.5px solid rgb(142, 142, 142);
+  border-top: 0px;
+  background-color: rgba(35, 100, 200, .7);
+}
+
+.train2-6 {
+  position: relative;
+  width: 85px;
+  height: 32.5px;
+  border: 17.5px solid rgb(142, 142, 142);
+  border-top: 0px;
+  background-color: rgba(35, 100, 200, .7);
+}
+
+.train2-7 {
+  position: relative;
+  width: 85px;
+  height: 32.5px;
+  border: 17.5px solid rgb(142, 142, 142);
+  border-top: 0px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: rgba(35, 100, 200, .7);
+}
+
+.train2-7-other {
+  position: relative;
+  width: 50px;
+  height: 32.5px;
+  border-right: 0px;
+  background-color: rgba(35, 100, 200, .7);
+  border-bottom: 17.5px solid rgb(142, 142, 142);
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 45px;
+}
+
+.train-mid {
+  margin-top: -20px;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+
+.train-line {
+  border-left: 1px solid rgb(64, 65, 66);
+  border-radius: 5px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  height: 52px;
+  width: 5px;
+  background-color: rgb(32, 32, 32);
+}
+
+.train-light {
+  position: relative;
+  left: -591px;
+  bottom: 195px;
+  width: 5px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: rgba(218, 197, 84, .7);
+  box-shadow: -10px 0px 25px 18px rgba(218, 197, 84, .7);
+}
+
+.train-backlight {
+  position: relative;
+  right: 7px;
+  bottom: 200px;
+  width: 5px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: rgba(170, 46, 46, 0.7);
+  box-shadow: 5px 0px 25px 8px rgba(170, 46, 46, 0.7);
+}
+
+.train-light-other {
+  position: relative;
+  left: -593px;
+  bottom: 198px;
+  width: 5px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: rgba(170, 46, 46, 0.7);
+  box-shadow: -5px 0px 25px 8px rgba(170, 46, 46, 0.7);
+}
+
+.train-backlight-other {
+  position: relative;
+  right: 7px;
+  bottom: 195px;
+  width: 5px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: rgba(218, 197, 84, .7);
+  box-shadow: 10px 0px 25px 18px rgba(218, 197, 84, .7);
+}

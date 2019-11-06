@@ -1,0 +1,18 @@
+.car-row-one {
+  bottom: 0;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  width: 200vw;
+  justify-content: space-around;
+}
+
+
+.car-row-two {
+  bottom: 0;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  width: 200vw;
+  justify-content: space-around;
+}

@@ -1,22 +1,76 @@
+::-webkit-scrollbar {
+  display:none;
+}
+
 .App {
   text-align: center;
+  height: 50000px;
 }
 
-.App-logo {
-  height: 40vmin;
+.scroll-container {
+  background-color: rgb(24, 9, 31);
+  background-image: url('./background.png');
+  background-repeat: repeat;
+  background-size: 1000%;
+  top: 0;
+  position: sticky;
+  height: 100vh;
+  overflow: hidden;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+.fore-back {
+  position: absolute;
+  height: 150px;
+  width: 100vw;
+  background-color: rgb(38, 84, 20);
+  border-top: 20px solid gray;
+  bottom: 45px;
+}
+
+.fore-middle {
+  position: absolute;
+  height: 80px;
+  width: 100vw;
+  background-color: rgb(38, 84, 20);
+  bottom: 215px;
+  border-top: 15px solid gray;
+}
+
+.middle-back {
+  height: 50px;
+  position: absolute;
+  width: 100vw;
+  background-color: rgb(27, 26, 27);
+  bottom: 310px;
+  border-top: 10px solid gray;
+}
+
+.back-back {
+  position: absolute;
+  height: 60px;
+  width: 100vw;
+  background-color: rgb(38, 84, 20);
+  bottom: 370px;
+  border-top: 9px solid gray;
+}
+
+.home {
+  top: 10px;
+  position: absolute;
+  width: 100vw;
+  border-radius: 5px;
+  margin: 0 auto;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #09d3ac;
+.home > p {
+  margin: 10px;
+  padding: 5px;
+  cursor: pointer;
+  background: rgba(10,10,10,.2);
+  color: rgba(226, 226, 226, .6);
+  border-radius: 5px;
 }
