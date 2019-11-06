@@ -16,8 +16,7 @@ class Bridge extends Component {
 
   handleScroll = (event) => {
     if (this.state.x <= -60) {
-      this.state.lastPos < window.scrollY ? this.setState({x: this.state.x + 2.5}) :
-      this.setState({x: this.state.x - 2.5})
+      this.setState({x: this.state.x + 2.5})
     } else {
       this.setState({x: -690})
     }

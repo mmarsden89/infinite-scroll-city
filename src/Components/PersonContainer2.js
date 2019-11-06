@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
-import Tree from './Tree'
+import Person2 from './Person2'
 
 
-class TreeContainer extends Component {
+class PersonContainer2 extends Component {
   constructor(props) {
     super(props)
     this.state = {
@@ -16,29 +16,26 @@ class TreeContainer extends Component {
   }
 
   handleScroll = (event) => {
-    if (this.state.x < window.innerWidth + 200) {
-      this.setState({x: this.state.x + 3})
+    if (this.state.x > -850) {
+      this.setState({x: this.state.x - 2})
       if (this.state.x < -350 && this.state.lastPos > window.scrollY) {
         this.setState({x: window.innerWidth})
       }
     } else {
-      this.setState({x: -300})
+      this.setState({x: window.innerWidth + 200})
     }
     this.setState({lastPos: window.scrollY})
   }
 
   render() {
     return (
-        <div style={{left: this.state.x}} className="tree-container" onScroll={this.handleScroll}>
-          <Tree x={-1270}/>
-          <Tree x={-670}/>
-          <Tree x={-300}/>
-          <Tree x={-100}/>
-          <Tree x={400}/>
-          <Tree x={1000}/>
+        <div style={{left: this.state.x}}
+          className="personcontainer2" onScroll={this.handleScroll}>
+          <Person2 x={250} arms={'red'} bottom={'black'} y={-3} color={'rgb(166, 147, 130)'}/>
+          <Person2 x={800} arms={'pink'} bottom={'purple'} y={2} color={'rgb(119, 93, 71)'}/>
         </div>
     );
   }
 }
 
-export default TreeContainer
+export default PersonContainer2

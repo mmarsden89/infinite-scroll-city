@@ -7,8 +7,7 @@ class Person2 extends Component {
     this.state = {
       x: this.props.x,
       y: this.props.y,
-      lastY: 0,
-      lastPos: 0
+      lastY: 0
     }
   }
 
@@ -17,16 +16,6 @@ class Person2 extends Component {
   }
 
   handleScroll = (event) => {
-    if (this.state.x > -650) {
-      this.state.lastPos > window.scrollY ? this.setState({x: this.state.x + 3.5}) :
-      this.setState({x: this.state.x - 3.5})
-      if (this.state.x < -350 && this.state.lastPos > window.scrollY) {
-        this.setState({x: window.innerWidth})
-      }
-    } else {
-      this.setState({x: window.innerWidth + 500})
-    }
-    this.setState({lastPos: window.scrollY})
     if (this.state.lastY < 10) {
       this.setState({y: this.state.y + 1.5, lastY: this.state.lastY + 2})
     } else if (this.state.lastY < 30) {
@@ -41,19 +30,19 @@ class Person2 extends Component {
   render() {
     return (
         <div style={{left: this.state.x, transform: `rotate(${this.state.y}deg)`}}
-          className="person" onScroll={this.handleScroll}>
-          <div className="person2left"
+          className="smallperson" onScroll={this.handleScroll}>
+          <div className="smallperson2left"
             style={{transform: `rotate(${(this.state.y - 10) * -5}deg)`,
             backgroundColor: this.props.arms}}>
-          <div className="hand" style={{backgroundColor: this.props.color}}></div>
+          <div className="smallhand" style={{backgroundColor: this.props.color}}></div>
           </div>
-          <div className="personbottom" style={{backgroundColor: this.props.bottom}}></div>
-          <div className="person2right"
+          <div className="smallpersonbottom" style={{backgroundColor: this.props.bottom}}></div>
+          <div className="smallperson2right"
             style={{transform: `rotate(${(this.state.y - 10) * -5}deg)`,
             backgroundColor: this.props.arms}}>
-          <div className="hand" style={{backgroundColor: this.props.color}}></div>
+          <div className="smallhand" style={{backgroundColor: this.props.color}}></div>
           </div>
-          <div className="head" style={{backgroundColor: this.props.color}}></div>
+          <div className="smallhead" style={{backgroundColor: this.props.color}}></div>
         </div>
     );
   }

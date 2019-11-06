@@ -1,0 +1,67 @@
+.smallperson {
+  position: absolute;
+  bottom: 290px;
+}
+
+
+.smallhead {
+  top: -35px;
+  position: relative;
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+}
+
+
+.smallpersonbottom {
+  top: 7px;
+  border-radius: 25%;
+  position: relative;
+  height: 20px;
+  width: 12px;
+}
+
+.smallpersonleft {
+  bottom: -20px;
+  left: 5px;
+  height: 12px;
+  position: relative;
+  width: 5px;
+  border-radius: 35%;
+}
+
+.smallpersonright {
+  bottom: 10px;
+  left: 5px;
+  height: 12px;
+  position: relative;
+  width: 5px;
+  border-radius: 35%;
+}
+
+.smallperson2left {
+  bottom: -20px;
+  left: 2px;
+  height: 12px;
+  position: relative;
+  width: 5px;
+  border-radius: 35%;
+}
+
+.smallperson2right {
+  bottom: 10px;
+  left: 3px;
+  height: 12px;
+  position: relative;
+  width: 5px;
+  border-radius: 35%;
+}
+
+.smallhand {
+  position: relative;
+  left: 0px;
+  top: 11px;
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+}

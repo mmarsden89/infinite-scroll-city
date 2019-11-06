@@ -7,8 +7,7 @@ class Person extends Component {
     this.state = {
       x: this.props.x,
       y: this.props.y,
-      lastY: 0,
-      lastPos: 0
+      lastY: 0
     }
   }
 
@@ -17,16 +16,6 @@ class Person extends Component {
   }
 
   handleScroll = (event) => {
-    if (this.state.x < window.innerWidth + 200) {
-      this.state.lastPos < window.scrollY ? this.setState({x: this.state.x + 3.5}) :
-      this.setState({x: this.state.x - 3.5})
-      if (this.state.x < -350 && this.state.lastPos > window.scrollY) {
-        this.setState({x: window.innerWidth})
-      }
-    } else {
-      this.setState({x: -300})
-    }
-    this.setState({lastPos: window.scrollY})
     if (this.state.lastY < 10) {
       this.setState({y: this.state.y + 1.5, lastY: this.state.lastY + 2})
     } else if (this.state.lastY < 30) {

@@ -11,14 +11,18 @@ import './Components/Road.css'
 import './Components/Bridge.css'
 import './Components/Train2.css'
 import './Components/TreeContainer.css'
+import './Components/PersonContainer.css'
 import './Components/Person.css'
+import './Components/SmallPerson.css'
 import './Components/TrainStop.css'
 import './Components/HotDog.css'
 import Box2 from './Components/Box2'
 import HotDogSalesman from './Components/HotDogSalesman'
 import HotDog from './Components/HotDog'
-import Person from './Components/Person'
-import Person2 from './Components/Person2'
+import PersonContainer from './Components/PersonContainer'
+import SmallPersonContainer from './Components/SmallPersonContainer'
+import SmallPersonContainer2 from './Components/SmallPersonContainer2'
+import PersonContainer2 from './Components/PersonContainer2'
 import Box3 from './Components/Box3'
 import Box4 from './Components/Box4'
 import Fence from './Components/Fence'
@@ -93,6 +97,8 @@ class App extends Component {
         <SmallCar/>
         <SmallCar2/>
         <SmallCar3/>
+        <SmallPersonContainer/>
+        <SmallPersonContainer2/>
         <TinyTree x={100}/>
         <TinyTree x={600}/>
         <TinyTree x={1250}/>
@@ -107,10 +113,8 @@ class App extends Component {
         <Box4/>
         <Fence/>
         <TreeContainer/>
-        <Person x={100} arms={'blue'} bottom={'darkblue'} y={1} color={'rgb(166, 147, 130)'}/>
-        <Person x={-800} arms={'white'} bottom={'green'} y={3} color={'rgb(52, 30, 10)'}/>
-        <Person2 x={100} arms={'red'} bottom={'black'} y={-3} color={'rgb(166, 147, 130)'}/>
-        <Person2 x={800} arms={'pink'} bottom={'purple'} y={2} color={'rgb(119, 93, 71)'}/>
+        <PersonContainer/>
+        <PersonContainer2/>
         <Road/>
         <CarRowOne/>
         <CarRowTwo/>

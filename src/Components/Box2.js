@@ -17,8 +17,7 @@ class Box2 extends Component {
 
   handleScroll = (event) => {
     if (this.state.x < window.innerWidth) {
-      this.state.lastPos < window.scrollY ? this.setState({x: this.state.x + 3}) :
-      this.setState({x: this.state.x - 3})
+      this.setState({x: this.state.x + 3})
       if (this.state.x < -350 && this.state.lastPos > window.scrollY) {
         this.setState({x: window.innerWidth})
       }
