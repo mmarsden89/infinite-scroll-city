@@ -16,3 +16,20 @@
   width: 200vw;
   justify-content: space-around;
 }
+
+
+.car-row-three {
+  /* bottom: 500px;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; */
+}
+
+.car-row-four {
+  /* bottom: 390px;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; */
+}

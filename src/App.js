@@ -29,12 +29,8 @@ import Fence from './Components/Fence'
 import Road from './Components/Road'
 import CarRowOne from './Components/CarRowOne'
 import CarRowTwo from './Components/CarRowTwo'
-import SmallCar from './Components/SmallCar'
-import SmallCar2 from './Components/SmallCar2'
-import SmallCar3 from './Components/SmallCar3'
-import SmallCar4 from './Components/SmallCar4'
-import SmallCar5 from './Components/SmallCar5'
-import SmallCar6 from './Components/SmallCar6'
+import CarRowThree from './Components/CarRowThree'
+import CarRowFour from './Components/CarRowFour'
 import TreeContainer from './Components/TreeContainer'
 import TinyTree from './Components/TinyTree'
 import TinierTree from './Components/TinierTree'
@@ -91,12 +87,8 @@ class App extends Component {
         <TinierTree x={455}/>
         <TinierTree x={1100}/>
         <TinierTree x={1450}/>
-        <SmallCar4/>
-        <SmallCar5/>
-        <SmallCar6/>
-        <SmallCar/>
-        <SmallCar2/>
-        <SmallCar3/>
+        <CarRowFour/>
+        <CarRowThree/>
         <SmallPersonContainer/>
         <SmallPersonContainer2/>
         <TinyTree x={100}/>
