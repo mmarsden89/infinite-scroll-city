@@ -1,3 +1,7 @@
+* {
+  animation-delay: 1s;
+}
+
 .car-row-one {
   bottom: 0;
   position: absolute;
@@ -6,7 +10,7 @@
   width: 200vw;
   justify-content: space-around;
   animation: carrowone 20s infinite;
-  animation-timing-function: linear;
+  animation-timing-function: steps(160);
 }
 
 @keyframes carrowone {
@@ -27,7 +31,7 @@
   justify-content: space-around;
   justify-content: space-around;
   animation: carrowtwo 20s infinite;
-  animation-timing-function: linear;
+  animation-timing-function: steps(160);
 }
 
 @keyframes carrowtwo {
@@ -49,7 +53,7 @@
   flex-direction: row;
   justify-content: space-around;
   animation: carrowthree 25s infinite;
-  animation-timing-function: linear;
+  animation-timing-function: steps(160);
 }
 
 .smallcar:nth-child(3) {
@@ -74,7 +78,7 @@
   flex-direction: row;
   justify-content: space-around;
   animation: carrowfour 25s infinite;
-  animation-timing-function: linear;
+  animation-timing-function: steps(160);
 }
 
 .copleft {
