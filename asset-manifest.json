@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/endless-scroll-city/static/css/main.a88e8a2a.chunk.css",
-    "main.js": "/endless-scroll-city/static/js/main.6ba8707d.chunk.js",
-    "main.js.map": "/endless-scroll-city/static/js/main.6ba8707d.chunk.js.map",
-    "runtime-main.js": "/endless-scroll-city/static/js/runtime-main.1ad0fc34.js",
-    "runtime-main.js.map": "/endless-scroll-city/static/js/runtime-main.1ad0fc34.js.map",
-    "static/js/2.41763f71.chunk.js": "/endless-scroll-city/static/js/2.41763f71.chunk.js",
-    "static/js/2.41763f71.chunk.js.map": "/endless-scroll-city/static/js/2.41763f71.chunk.js.map",
-    "index.html": "/endless-scroll-city/index.html",
-    "precache-manifest.096d62106e92cffb746fa233ddf883f8.js": "/endless-scroll-city/precache-manifest.096d62106e92cffb746fa233ddf883f8.js",
-    "service-worker.js": "/endless-scroll-city/service-worker.js",
-    "static/css/main.a88e8a2a.chunk.css.map": "/endless-scroll-city/static/css/main.a88e8a2a.chunk.css.map",
-    "static/media/App.css": "/endless-scroll-city/static/media/background.6e953503.png"
+    "main.css": "/infinite-scroll-city/static/css/main.0ec9a539.chunk.css",
+    "main.js": "/infinite-scroll-city/static/js/main.1afb4670.chunk.js",
+    "main.js.map": "/infinite-scroll-city/static/js/main.1afb4670.chunk.js.map",
+    "runtime-main.js": "/infinite-scroll-city/static/js/runtime-main.1e342bf2.js",
+    "runtime-main.js.map": "/infinite-scroll-city/static/js/runtime-main.1e342bf2.js.map",
+    "static/js/2.41763f71.chunk.js": "/infinite-scroll-city/static/js/2.41763f71.chunk.js",
+    "static/js/2.41763f71.chunk.js.map": "/infinite-scroll-city/static/js/2.41763f71.chunk.js.map",
+    "index.html": "/infinite-scroll-city/index.html",
+    "precache-manifest.df7c47b4fc4e54d78fdee37acab3587a.js": "/infinite-scroll-city/precache-manifest.df7c47b4fc4e54d78fdee37acab3587a.js",
+    "service-worker.js": "/infinite-scroll-city/service-worker.js",
+    "static/css/main.0ec9a539.chunk.css.map": "/infinite-scroll-city/static/css/main.0ec9a539.chunk.css.map",
+    "static/media/App.css": "/infinite-scroll-city/static/media/background.6e953503.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.1ad0fc34.js",
+    "static/js/runtime-main.1e342bf2.js",
     "static/js/2.41763f71.chunk.js",
-    "static/css/main.a88e8a2a.chunk.css",
-    "static/js/main.6ba8707d.chunk.js"
+    "static/css/main.0ec9a539.chunk.css",
+    "static/js/main.1afb4670.chunk.js"
   ]
 }
